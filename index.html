@@ -11,10 +11,26 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
     crossorigin="anonymous" />
 
-  <body>
+  <body style="height: 100vh; background-color: rgba(95, 75, 139, 0.6)">
     <div class="container" style="text-align: center">
-      <h1>The Best Movies According to Emmanuel</h1>
-      <h2 class="pt-3">My top 3 movies of all-time</h2>
+      <header>
+        <!-- Background image -->
+        <!--<div
+          class="p-5 text-center bg-image"
+          style="
+            background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+            height: 350px;
+          ">-->
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.1)">
+          <div class="d-flex justify-content-center align-items-center h-20">
+            <div class="text-white">
+              <h2>My Recommendations</h2>
+            </div>
+          </div>
+          <!-- </div>-->
+        </div>
+        <!-- Background image -->
+      </header>
 
       <hr />
       <div class="row">
@@ -64,6 +80,17 @@
         </div>
       </div>
     </div>
+
+    <footer
+      class="bg-light text-center text-lg-start"
+      style="position: fixed; bottom: 0; width: 100vw">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2023 Copyright
+        <a class="text-dark" href="mailto:emmanuellarteymohammed@gmail.com">Send me an email</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
